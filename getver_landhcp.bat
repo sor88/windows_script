@@ -16,6 +16,7 @@ if "%ProductName%" == "Windows 7 Starter" goto config
 
 
 :noconfig
+echo %ProductName%
 exit 
 
 :config 
